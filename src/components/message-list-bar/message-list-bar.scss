@@ -1,0 +1,54 @@
+.message-list-bar-container {
+  width: 300px;
+
+  h4,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin-top: 4px;
+    font-size: 13px;
+  }
+
+  .message-list-item-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 20px;
+    cursor: pointer;
+
+    .name-symbol-container {
+      display: flex;
+
+      .user-symbol-container {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: lightblue;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        margin-right: 16px;
+      }
+    }
+    .status-online {
+      background-color: green;
+      align-self: center;
+      padding: 5px;
+      border-radius: 15px;
+    }
+    .status-offline {
+      align-self: center;
+      padding: 5px;
+    }
+  }
+
+  .separator {
+    height: 1px;
+    background-color: lightgray;
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+}

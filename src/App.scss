@@ -1,0 +1,22 @@
+.app-container {
+  display: flex;
+  flex: 1;
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    .chat-list-view-container {
+      display: flex;
+      flex: 1;
+
+      .chat-section-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: white;
+      }
+    }
+  }
+}

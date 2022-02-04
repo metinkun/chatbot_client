@@ -1,0 +1,73 @@
+.header-container {
+  background-color: #ffffff;
+  padding: 24px 20px;
+  display: flex;
+  align-items: center;
+  color: #8b8b8b;
+
+  h4,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin-top: 4px;
+    font-size: 13px;
+  }
+
+  .message-list-settings-section {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    padding-right: 20px;
+  }
+
+  .logo-name-section {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    color: #515151;
+
+    .logo-section-container {
+      display: flex;
+      margin: 0px 15px;
+      .user-symbol-container {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: lightblue;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        margin-right: 16px;
+      }
+
+      .logo-name-container {
+        height: 20px;
+      }
+      .icon-container {
+        min-width: 50px;
+      }
+
+      .title-container {
+        margin: 0px 10px;
+      }
+    }
+
+    .name-section-container {
+      display: flex;
+
+      .name-section-item {
+        display: flex;
+        margin-left: 40px;
+
+        div {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

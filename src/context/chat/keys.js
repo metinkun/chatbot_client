@@ -1,0 +1,4 @@
+export const ADD_NEW_MESSAGE = 'ADD_NEW_MESSAGE';
+export const CHANGE_TYPING = 'CHANGE_TYPING';
+export const SET_ACTIVE_CHAT = 'SET_ACTIVE_CHAT';
+export const SET_SOCKET = 'SET_SOCKET';

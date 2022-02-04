@@ -1,0 +1,24 @@
+.chat-input-container {
+  height: 50px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  input {
+    border: none;
+    width: 350px;
+  }
+  input::placeholder {
+    color: #01aaf3;
+  }
+
+  .input-container {
+    color: #01aaf3;
+    align-self: center;
+  }
+
+  .send-button {
+    color: #b1b1b1;
+    align-self: center;
+    cursor: pointer;
+  }
+}
